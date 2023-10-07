@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+        /* Header */
+
+header{
+    background-color: #444041;
+    color: #827b7d;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.logo img {
+    width: 93%;
+    height: 65px;
+}
+
+.logo p{
+    font-size: 28px;
+    font-family: revert;
+    letter-spacing: 0.6px;
+    color: #8f7b7b;
+    font-weight: 600;
+}
+
+nav{
+    background-color: #3d393a;
+    padding: 20px;
+}
+
+nav a{
+    color: #827b7d;
+    text-decoration: none;
+    font-size: 21px;
+    text-transform: uppercase;
+    margin-right: 13px;
+}
+
+nav a:hover{
+    color: orange;
+}
+
+        /* Main */
+
+main{
+    width: 1024px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.slider img{
+    width: 100%;
+    height: 532px;
+}
+
+.article-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.article img{
+    width: 100%;
+    height: 180px;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    gap: 24px;
+}
+
+.intro p{
+    font-size: 18px;
+}
+
+.intro p span{
+    font-size: 20px;
+    font-style: italic;
+    font-family: math;
+    font-weight: 600;
+}
+
+#article1{
+    position: absolute;
+    left: 239px;
+    top: 136px;
+    color: orangered;
+}
+
+#article2{
+    position: absolute;
+    left: 595px;
+    top: 135px;
+    color: orangered;
+}
+
+#article3{
+    position: absolute;
+    top: 135px;
+    right: 0;
+    color: orangered;
+}
+
+.section-03{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.section-03 h2{
+    font-style: oblique;
+    font-size: 30px;
+    font-family: math;
+}
+
+.section-03 p{
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+.section-03 p span{
+    color: rgb(44, 44, 231);
+}
+
+.right-side{
+    height: 200px;
+}
+
+        /* Footer */
+
+footer{
+    background-color: #444041;
+    width: 100%;
+    height: 70vh;
+    margin-top: 20px;
+}
+
+.footer-container{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.links h4{
+    font-size: 25px;
+}
+
+.links ul{
+    list-style: none;
+    font-size: 20px;
+    color: orange;
+}
+
+.links ul li{
+    border-bottom: 1px solid #494545cf;
+    margin-top: 46px;
+    margin-right: 20px;
+}
+
+.copy-right{
+    background-color: black;
+    color: #827b7d;
+}
+
+.copy{
+    display: flex;
+    justify-content: space-around;
+    width: 1024px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.copy p{
+    font-size: 20px;
+}
